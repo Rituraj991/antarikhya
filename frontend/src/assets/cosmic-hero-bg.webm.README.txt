@@ -1,0 +1,4 @@
+// Place your cosmic-hero-bg.webm file in the assets folder.
+// Example import and usage in Hero.tsx:
+// import cosmicHeroBgWebm from '@/assets/cosmic-hero-bg.webm';
+// Use <video> tag for background instead of CSS background-image.
