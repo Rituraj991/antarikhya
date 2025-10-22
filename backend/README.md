@@ -1,6 +1,6 @@
-# Backend Project
+# Backend 
 
-This is the backend for antarikyajec.
+antarikyajec.
 
 ## Technologies Used
 - Node.js
@@ -8,6 +8,6 @@ This is the backend for antarikyajec.
 - MongoDB
 - Axios
 
-## Setup
+
 
 
