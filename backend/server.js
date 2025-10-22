@@ -7,6 +7,7 @@ import authRoutes from "./routes/authRoutes.js";
 import memberRoutes from "./routes/memberRoutes.js";
 import { errorHandler } from "./middleware/errorHandler.js";
 import  { ensureAdmins } from "./utlis/ensureAdmins.js";
+import messageRoutes from "./routes/messageRoutes.js"
 
 
 dotenv.config({ path: ".env" });
@@ -23,21 +24,22 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: "http://localhost:8000", // frontend UrL
+    origin: "http://localhost:8000", 
     credentials: true,
   })
 );
 
 // Routes
 app.use("/api/auth", authRoutes);      
-app.use("/api/member", memberRoutes);   
+app.use("/api/member", memberRoutes); 
+app.use("/api/message", messageRoutes);
 
 // Default route
 app.get("/", (req, res) => {
   res.send("Server is running...");
 });
 
-// Error handling middleware
+// middleware for errors
 app.use(errorHandler);
 
 

@@ -1,6 +1,6 @@
 # Backend Project
 
-This is the backend for [Your Project Name].
+This is the backend for antarikyajec.
 
 ## Technologies Used
 - Node.js
@@ -10,6 +10,4 @@ This is the backend for [Your Project Name].
 
 ## Setup
 
-1. Clone the repository:
-   
-   git clone <https://github.com/Rituraj991/antarikhya.git
+

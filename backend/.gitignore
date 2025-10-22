@@ -13,6 +13,6 @@ npm-debug.log*
 .DS_Store
 Thumbs.db
 
-# Build outputs (if using TypeScript)
+# Build outputs 
 dist/
 build/
