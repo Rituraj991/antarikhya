@@ -6,4 +6,4 @@ const MemberDashboard = () => {
   )
 }
 
-export default MemberDashboard
+export default MemberDashboard;

@@ -8,6 +8,6 @@ This is the backend for antarikyajec.
 - MongoDB
 - Axios
 
-## Setup
+
 
 

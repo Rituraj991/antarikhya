@@ -10,6 +10,7 @@ import  { ensureAdmins } from "./utlis/ensureAdmins.js";
 import messageRoutes from "./routes/messageRoutes.js"
 
 
+
 dotenv.config({ path: ".env" });
 
 databaseconnection();
@@ -34,9 +35,10 @@ app.use("/api/auth", authRoutes);
 app.use("/api/member", memberRoutes); 
 app.use("/api/message", messageRoutes);
 
+
 // Default route
 app.get("/", (req, res) => {
-  res.send("Server is running...");
+  res.send("Antarikhya API is running...");
 });
 
 // middleware for errors
